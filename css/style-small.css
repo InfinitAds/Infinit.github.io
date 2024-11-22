@@ -15,25 +15,25 @@
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.75rem;
 	}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 	}
 
 	h4 {
-		font-size: 1em;
+		font-size: 1rem;
 	}
 
 /* Image */
 
 	.image.left {
-		margin: 0 1.5em 1em 0;
+		margin: 0 1.5rem 1rem 0;
 	}
 
 	.image.right {
-		margin: 0 0 1em 1.5em;
+		margin: 0 0 1rem 1.5rem;
 	}
 
 /* Section/Article */
@@ -43,18 +43,18 @@
 	}
 
 	header.major h2 {
-		font-size: 2.5em;
+		font-size: 2.5rem;
 	}
 
 		header.major h2 + p {
-			font-size: 1.5em;
+			font-size: 1.5rem;
 		}
 
 /* Features */
 
 	.features article .image, .excerpt img {
 		display: block;
-		margin: 0 0 2.25em 0;
+		margin: 0 0 2.25rem 0;
 		padding-right: 0;
 		width: 100%;
 	}
@@ -67,36 +67,36 @@
 /* Header */
 
 	#header > header {
-		padding: 2em;
+		padding: 2rem;
 	}
 
 		#header > header .avatar {
-			margin: 0 auto 1.6875em auto;
-			width: 6em;
+			margin: 0 auto 1.6875rem auto;
+			width: 6rem;
 		}
 
 		#header > header h1 {
-			font-size: 1.5em;
+			font-size: 1.5rem;
 		}
 
 		#header > header p {
-			margin: 1em 0 0 0;
+			margin: 1rem 0 0 0;
 		}
 
 	#header > footer {
-		padding: 1.5em;
+		padding: 1.5rem;
 	}
 
 /* Main */
 
 	#main > section > .container {
-		padding: 2em 0 0 0;
+		padding: 2rem 0 0 0;
 	}
 
 /* One */
 
 	#one:before {
-		height: 7em;
+		height: 7rem;
 	}
 
 /* Footer */
@@ -108,8 +108,8 @@
 		#footer .copyright li {
 			border-left: 0;
 			display: block;
-			line-height: 1.75em;
-			margin: 0.75em 0 0 0;
+			line-height: 1.75rem;
+			margin: 0.75rem 0 0 0;
 			padding-left: 0;
 		}
 
@@ -120,8 +120,8 @@
 /* Layers */
 
 	#titleBar .toggle {
-		height: 4em;
-		width: 6em;
+		height: 4rem;
+		width: 6rem;
 	}
 
 		#titleBar .toggle:before {

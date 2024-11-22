@@ -13,25 +13,25 @@
 /* Header */
 
 	#header {
-		width: 21em;
+		width: 20rem;
 	}
 
 		#header > header {
-			padding: 2em;
+			padding: 2rem;
 		}
 
 		#header > footer {
-			padding: 1.5em;
+			padding: 1.5rem;
 		}
 
 /* Wrapper */
 
 	#wrapper {
-		padding-right: 21em;
+		padding-right: 10rem;
 	}
 
 /* Main */
 
 	#main > section > .container {
-		padding: 4em 0 2em 0;
+		padding: 4rem 0 2rem 0;
 	}
