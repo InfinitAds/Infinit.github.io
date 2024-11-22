@@ -17,9 +17,9 @@
 	body, input, select, textarea {
 		color: #888;
 		font-family: "Lato", sans-serif;
-		font-size: 16pt;
+		font-size: 12pt;
 		font-weight: 400;
-		line-height: 1.75rem;
+		line-height: 1.1rem;
 	}
 
 	a {
@@ -43,7 +43,7 @@
 		font-weight: 700;
 	}
 
-	rem, i {
+	em, i {
 		font-style: italic;
 	}
 
@@ -65,18 +65,18 @@
 		}
 
 	h2 {
-		font-size: 2rem;
-		line-height: 1.5rem;
+		font-size: 1rem;
+		line-height: 1rem;
 	}
 
 	h3 {
-		font-size: 1.75rem;
-		line-height: 1.5rem;
+		font-size: 1rem;
+		line-height: 1rem;
 	}
 
 	h4 {
-		font-size: 1.25rem;
-		line-height: 1.5rem;
+		font-size: 1rem;
+		line-height: 1rem;
 	}
 
 	h5 {
@@ -108,7 +108,7 @@
 	}
 
 		hr.major {
-			margin: 3.375rem 0;
+			margin: 1rem 0;
 		}
 
 	blockquote {
@@ -175,7 +175,7 @@
 	}
 
 	header h2 + p {
-		font-size: 1.25rem;
+		font-size: 1.0rem;
 		margin-top: -0.5rem;
 		line-height: 1.5rem;
 	}
@@ -197,15 +197,15 @@
 	header.major h2 {
 		text-align: center;
 		color: #4acaa8;
-		font-size: 3rem;
+		font-size: 1.1em;
 	}
 
 		header.major h2 + p {
 			color: #777;
-			font-size: 1.5rem;
+			font-size: 1.0rem;
 			font-weight: 400;
 			margin-top: 1.75rem;
-		  line-height: 3rem;
+		  line-height: 1.5rem;
 			text-align: left;
 		}
 
@@ -903,7 +903,7 @@
 			display: inline-block;
 			padding-right: 2.5rem;
 			vertical-align: middle;
-			width: 48%;
+			width: 100%;
 		}
 
 			.features article .image img {
@@ -914,7 +914,7 @@
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 100%;
 		}
 
 			.features article .inner > :last-child {
@@ -1071,7 +1071,16 @@
 		height: 2rem;
 		width: 100%;
 	}
-
+	h4:before {
+		/* background-image: url("../images/banner.jpg"); */
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+		content: '';
+		display: block;
+		height: 1rem;
+		width: 100%;
+	}
 /* Footer */
 
 	#footer {
