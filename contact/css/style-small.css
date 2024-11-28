@@ -51,7 +51,7 @@
 
 	p {
 		margin: 0 0 2.25rem 0;
-		font-size:1rem;
+		font-size: 0.8rem;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -81,7 +81,7 @@
 	}
 
 	h4 {
-		font-size: 1.1rem;
+		font-size: 1rem;
 		line-height: 2rem;
 		text-align: left;
 	}
@@ -189,7 +189,7 @@
 	}
 
 	header h3 + p {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		margin-top: -0.35rem;
 		line-height: 1.5rem;
 	}
@@ -205,14 +205,14 @@
 	header.major h2 {
 		text-align: center;
 		color: #4acaa8;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		font-weight: 700;
    line-height: 2rem;
 	}
 
 		header.major h2 + p {
 			color: #777;
-			font-size: 1rem;
+			font-size: 0.8rem;
 			font-weight: 400;
 			margin-top: 1rem;
 		  line-height: 2rem;
@@ -502,7 +502,7 @@
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
 				color: #ffffff;
-				font-size:1.1em;
+				font-size:0.8em;
 			}
 
 		#header header p {
@@ -544,7 +544,7 @@
 				color: #d1f1e9;
 				font-style: italic;
 				margin: 1rem 0 0 0;
-				font-size: 1.0rem;
+				font-size: 0.6rem;
 			}
 
 		#header > footer {
@@ -588,7 +588,7 @@
 					padding-bottom:  5% ;
 					padding-top:  5% ;
 					text-decoration: none;
-					font-size:1rem
+					font-size:0.8rem
 				}
 
 					#header > nav ul li a.active, #header > nav ul li .cc-active {
@@ -606,7 +606,7 @@
 		background: #fff;
 		padding-right: 30%;
     padding-left: 5%;
-		width：65%;
+		width: 65%;
 	}
 
 /* Main */
@@ -666,7 +666,7 @@
 			#footer .copyright li {
 				border-left: solid 1px #d4d4d4;
 				display: inline-block;
-				font-size: 1.5rem;
+				font-size: 1rem;
 				margin-left: 1rem;
 				padding-left: 1rem;
 			}
