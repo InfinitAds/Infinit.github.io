@@ -12,14 +12,14 @@
 
 	body {
 		background: #fff;
-		padding: 0;
-    margin: 0;
+		/* padding: 0;
+    margin: 0; */
 	}
 
 	body, input, select, textarea {
 		color: #888;
 		font-family: "Lato", sans-serif;
-		font-size: 8pt;
+		font-size: 4pt;
 		font-weight: 400;
 		line-height: 2rem;
 	}
@@ -51,13 +51,13 @@
 
 	p {
 		margin: 0 0 2.25rem 0;
-		font-size:1.5rem;
+		font-size:1rem;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #777;
 		font-weight: 700;
-		line-height: 1.5rem;
+		line-height: 1.2rem;
 		margin: 0 0 0.5625rem 0;
 	}
 
@@ -74,14 +74,14 @@
 	}
 
 	h3 {
-		font-size:2rem;
+		font-size:1.2rem;
 		line-height: 2rem;
 		color: #4acaa8;
 			text-align: left;
 	}
 
 	h4 {
-		font-size: 1.5rem;
+		font-size: 1.1rem;
 		line-height: 2rem;
 		text-align: left;
 	}
@@ -183,7 +183,7 @@
 	}
 
 	header h2 + p {
-		font-size: 2rem;
+		font-size: 1rem;
 		margin-top: -0.5rem;
 		line-height: 1.5rem;
 	}
@@ -205,17 +205,17 @@
 	header.major h2 {
 		text-align: center;
 		color: #4acaa8;
-		font-size: 3rem;
+		font-size: 1.2rem;
 		font-weight: 700;
-   line-height: 3rem;
+   line-height: 2rem;
 	}
 
 		header.major h2 + p {
 			color: #777;
-			font-size: 2rem;
+			font-size: 1rem;
 			font-weight: 400;
-			margin-top: 1.75rem;
-		  line-height: 3rem;
+			margin-top: 1rem;
+		  line-height: 2rem;
 			text-align: left;
 		}
 
@@ -242,12 +242,12 @@
 
 /* Image */
 
-	 .image {
+	.image {
 		border-radius: 0.25rem;
 		border: 0;
 		display: inline-block;
 		position: relative;
-	} 
+	}
 
 		.image img, .post-content img {
 			border-radius: 0.25rem;
@@ -275,7 +275,12 @@
 			.image.fit img {
 				display: block;
 				width: 100%;
-			} 
+			}
+
+		/* .image.avatar {
+			border-radius: 100%;
+			overflow: hidden;
+		} */
 
 			.image.avatar img {
 				border-radius: 50%;
@@ -284,7 +289,13 @@
 				padding-left: 10%;
 				padding-right: 10%;
 			}
-
+			/* .image.avatar img {
+				border-radius: 100%;
+				display: block;
+				width: 5rem;
+				padding-left: 0rem;
+				padding-right: 0rem;
+			} */
 /* List */
 
 	ol {
@@ -486,12 +497,12 @@
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
-			font-size:2rem;
+			font-size:1.2rem;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
 				color: #ffffff;
-				font-size:2rem;
+				font-size:1.1em;
 			}
 
 		#header header p {
@@ -524,7 +535,7 @@
 			}
 
 			#header > header h1 {
-				font-size: 1.5rem;
+				font-size: 1.2rem;
 				margin: 10%;
 				text-align: center;
 			}
@@ -533,7 +544,7 @@
 				color: #d1f1e9;
 				font-style: italic;
 				margin: 1rem 0 0 0;
-				font-size: 1.75rem;
+				font-size: 1.0rem;
 			}
 
 		#header > footer {
@@ -577,7 +588,7 @@
 					padding-bottom:  5% ;
 					padding-top:  5% ;
 					text-decoration: none;
-					font-size:1.75rem
+					font-size:1rem
 				}
 
 					#header > nav ul li a.active, #header > nav ul li .cc-active {
@@ -595,7 +606,7 @@
 		background: #fff;
 		padding-right: 30%;
     padding-left: 5%;
-		width: 65%；
+		width：65%;
 	}
 
 /* Main */
