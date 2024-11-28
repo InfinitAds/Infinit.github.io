@@ -242,14 +242,14 @@
 
 /* Image */
 
-	/* .image {
+	 .image {
 		border-radius: 0.25rem;
 		border: 0;
 		display: inline-block;
 		position: relative;
-	} */
+	} 
 
-		/* .image img, .post-content img {
+		.image img, .post-content img {
 			border-radius: 0.25rem;
 			display: block;
 		}
@@ -275,12 +275,7 @@
 			.image.fit img {
 				display: block;
 				width: 100%;
-			} */
-
-		/* .image.avatar {
-			border-radius: 100%;
-			overflow: hidden;
-		} */
+			} 
 
 			.image.avatar img {
 				border-radius: 50%;
