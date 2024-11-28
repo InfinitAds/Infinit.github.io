@@ -641,13 +641,16 @@
 	}
 /* Footer */
 
-	#footer {
-		background: #fafafa;
-		border-top: 0;
-		color: #c0c0c0;
-		overflow: hidden;
-		padding: 4rem 0 2rem 0;
-	}
+#footer {
+	background: #fafafa;
+	border-top: 0;
+	color: #c0c0c0;
+	overflow: hidden;
+	padding: 4rem 0 2rem 0;
+	position: fixed;
+	bottom: 0;
+	width:65%;
+}
 
 		#footer .copyright {
 			line-height: 1rem;
